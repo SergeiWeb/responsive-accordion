@@ -1,0 +1,41 @@
+/*==============-| BASE |-==============*/
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--body-font);
+	font-size: var(--normal-font-size);
+	background-color: var(--body-color);
+	color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a,
+span {
+	display: inline-block;
+}
+
+button {
+	all: unset;
+	cursor: pointer;
+	display: inline-block;
+}
+
+ul {
+	list-style: none;
+}
+
